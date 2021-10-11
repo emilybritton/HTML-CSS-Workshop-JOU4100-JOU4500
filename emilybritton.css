@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: lightblue ;
 }
 
 .top-bar {
@@ -26,7 +26,7 @@ body {
 }
 
 .top-menu {
-   background-color: #131359;
+   background-color: lightpink;
    position: absolute;
    top: 85px;
    z-index: 2;
@@ -51,11 +51,11 @@ body {
 }
 
 .top-menu li a:hover {
-    background-color: red;
+    background-color: coral;
 }
 
 .current-page-link {
-    background-color: #db0e0e;
+    background-color: coral;
 }
 
 .page-content {
@@ -64,7 +64,7 @@ body {
     max-width: 1000px;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+    background-color: #CAE9F5;
     z-index: 1;
 }
 
@@ -100,4 +100,83 @@ body {
 .footer-content a:link {
     color: white;
     text-decoration: none;
+}
+
+.months {
+    font-size: 30px;
+    color: coral;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.title {
+    color: coral;
+    font-size: 40px;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.food {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 20px ;
+}
+
+.events {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    font-size: 20 px;
+}
+
+.grad {
+    font-weight: 800;
+    color: black;
+}
+
+.puppy {
+    font-weight: 800;
+    color: black;
+}
+
+.tattoo {
+    font-weight: 800;
+    color: black;
+}
+
+.chibi {
+    font-weight: 900;
+}
+
+.me {
+    font-family: 'Merriweather', serif; 
+    text-transform: uppercase;
+    font-size: 60px;
+    color: darkseagreen;
+    line-height: 4px;
+}
+
+.spa-photo {
+    font-family: Raleway;
+    font-style: italic;
+    font-size: 30px;
+}
+
+h4 {
+    font-family: Arial;
+    font-size: 30px;
+    color: black;
+}
+
+figcaption {
+    font-size: 20px;
+}
+
+.extra-extra {
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: seagreen;
+}
+
+.little {
+    text-align: center;
+}
+
+h6 {
+    font-size: 20px;
 }
